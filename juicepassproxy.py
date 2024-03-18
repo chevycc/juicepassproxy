@@ -311,7 +311,7 @@ class JuiceboxMessageHandler(object):
 
 
 class JuiceboxUDPCUpdater(object):
-    def __init__(self, juicebox_host, udpc_host, udpc_port=8047):
+    def __init__(self, juicebox_host, udpc_host, udpc_port=8048):
         self.juicebox_host = juicebox_host
         self.udpc_host = udpc_host
         self.udpc_port = udpc_port
